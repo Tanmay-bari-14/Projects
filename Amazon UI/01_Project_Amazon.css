@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #010101;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  height: 50px;
+}
+.logo {
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  margin-left: 5px;
+  text-align: center;
+}
+
+/*2*/
+
+.border {
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.nav-address {
+  color: white;
+}
+
+.nav-icon {
+  display: flex;
+}
+
+.deliver {
+  padding-left: 20px;
+}
+
+.fa-solid {
+  margin-right: 8px;
+}
+
+/* 3 */
+
+.nav-search {
+  display: flex;
+  height: 40px;
+  width: 650px;
+  justify-content: space-evenly;
+}
+
+.nav-search:hover {
+  border: 2px solid #febd68;
+  border-radius: 5px;
+}
+
+.nav_select {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+}
+
+.Search {
+  border: none;
+  width: 100%;
+}
+
+.nav-search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #febd68;
+  width: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* 4 */
+
+.nav_lang {
+  display: flex;
+}
+
+.lang_icon {
+  color: white;
+  font-size: 20px;
+}
+
+/* 5 */
+.nav_about {
+  color: white;
+}
+
+.upper_about {
+  font: 12px;
+}
+.lower_about {
+  font: 18px;
+  font-weight: 900px;
+}
+
+/* 6 */
+
+.upper_rd {
+  color: white;
+}
+.lower_rd {
+  color: white;
+}
+
+/* 7 */
+
+.cart_icon {
+  color: white;
+  font-size: 20px;
+  display: flex;
+}
+
+.cart {
+  color: white;
+  margin-right: 15px;
+}
+
+/* PANNEELLLLLLLL */
+
+.panel {
+  height: 40px;
+  width: 100%;
+  background: #262929;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.pannel_menu {
+  display: flex;
+  color: white;
+  margin-right: 75px;
+}
+
+.panel_data {
+  display: flex;
+  width: 100%;
+}
+
+.panel_data p {
+  margin-right: 75px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++ hero image ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.hero_image {
+  width: 100%;
+  height: 600px;
+  background-image: url("hero.jpg");
+  z-index: -1;
+}
+
+.hero_products_list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.box1 {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  background-image: url(unsplash.avif);
+  margin-left: 25px;
+}
+.box2 {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.box3 {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.box4 {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.box5 {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.box6 {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.box7 {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.box8 {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.content {
+  height: 150px;
+}
+
+/*______________________________FOOTER_____________________________________*/
+
+.footer1 {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(16, 15, 15);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer2 {
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer2 p {
+  padding-top: 10px;
+}
